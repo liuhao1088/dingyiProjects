@@ -1,0 +1,179 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width:100%;">
+    <view class="lbt_div">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+        style="height:100%;">
+        <swiper-item>
+          <image src="https://img13.360buyimg.com/ddimg/jfs/t1/119114/40/17804/407339/5f5f19f1E2da3e696/e12097db558a3e27.jpg" class="slide-image" />
+        </swiper-item>
+
+        <swiper-item>
+          <image src="https://i.loli.net/2020/09/03/mhV1AULGwpRZd7F.jpg" class="slide-image" />
+        </swiper-item>
+
+        <swiper-item>
+          <image src="https://i.loli.net/2020/09/03/g9o5NACQyPfFbKi.jpg" class="slide-image" />
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="understand">
+      <image style="width: 100%;height: 100%;border-radius: 12rpx; "
+        src="https://i.loli.net/2020/09/08/mUq154fnjFltIyY.jpg"></image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="video_div">
+    <video
+      style="width: 100%;height: 100%;" 
+      id="myVideo" 
+      src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E9%BC%8E%E6%98%93.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1600052178;1915412178&q-key-time=1600052178;1915412178&q-header-list=&q-url-param-list=&q-signature=837aeca2ec6f46ee2fcea19d0ee8bf5f07485faf" 
+      binderror="videoErrorCallback" 
+      enable-danmu 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+      bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+      bindleavepictureinpicture='bindVideoLeavePictureInPicture'
+    ></video>
+
+  </view>
+
+  </view>
+  
+
+
+
+  <!-- <view class="tag_maxdiv" style="width:100%;margin-top: 20rpx;">
+    <view class="header" style="height:1000rpx;">
+      <view class="but_div">
+        <view class="but_cpxq">产品详情</view>
+        <view class="but_cpxq" style="background-color: white;color: black;">产品视频</view>
+      </view>
+    </view>
+
+  </view> -->
+
+  <!-- <view class="tag_maxdiv">
+    <view class="tag">
+      <view class="gsjs_div">公司介绍</view>
+      <view class="ckgd_div">
+        <view class="ckgd_nrdiv">
+          <view class="ckgd_iocn">
+            <van-icon name="arrow" />
+          </view>
+          <view class="ckgd_nr">查看更多</view>
+        </view>
+      </view>
+    </view>
+    <view class="imgdiv">
+      <view class="img"></view>
+      <view class="imgdiv_nrdiv">佛山鼎易南铧科技有限公司</view>
+      <view class="imgdiv_title">佛山南海狮山罗村孝贤路2号长富创意产业园3栋4-5层</view>
+    </view>
+  </view> -->
+
+  <!-- <view class="tag_maxdiv" style="margin-top: 20rpx;">
+    <van-tabs swipeable="ture" animated="ture" active="{{ active }}" color="#E6F2FE" bind:change="onChange">
+      <van-tab title="产品图赏" title-style="font-weight: 600;font-size: 36rpx;">
+        <view class="tab_img"></view>
+      </van-tab>
+      <van-tab title="开箱图赏" title-style="font-weight: 600;font-size: 36rpx;">
+        <view class="tab_img"></view>
+      </van-tab>
+    </van-tabs>
+
+  </view> -->
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="brandone">
+      <image style="width: 100%;height: 100%;border-radius: 12rpx; "
+        src="https://i.loli.net/2020/09/08/mUq154fnjFltIyY.jpg"></image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="brandone">
+      <image style="width: 100%;height: 100%;border-radius: 12rpx; "
+        src="https://i.loli.net/2020/09/08/mUq154fnjFltIyY.jpg"></image>
+    </view>
+  </view>
+
+  <view class="tag_maxdiv">
+    <view class="img_div" bindtap="brandone">
+      <image style="width: 100%;height: 100%;border-radius: 12rpx; "
+        src="https://i.loli.net/2020/09/08/mUq154fnjFltIyY.jpg"></image>
+    </view>
+  </view>
+
+
+  <view class="tag_maxdiv">
+    <view class="tag">
+      <view class="gsjs_div">进一步了解</view>
+      <!-- <view class="ckgd_div">
+        <view class="ckgd_nrdiv">
+          <view class="ckgd_iocn">
+            <van-icon name="arrow" />
+          </view>
+          <view class="ckgd_nr">查看更多</view>
+        </view>
+      </view> -->
+    </view>
+
+    <view class="layout">
+      <view class="layout_maxdiv" style="margin-top: 0;" bindtap="wenzhangdjone">
+        <view class="layout_imgdiv">
+          <view class="layout_wz">文章</view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
+          <view class="layout_date">9月20日</view>
+        </view>
+
+      </view>
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjtwo">
+        <view class="layout_imgdiv">
+          <view class="layout_wz">文章</view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">致敬新时代，探索LED灯照明新未来</view>
+          <view class="layout_date">9月20日</view>
+        </view>
+
+      </view>
+
+
+
+
+
+    </view>
+  </view>
+
+  <view class="tag_maxdiv" style="width: 100%;">
+
+    <view class="red_div"></view>
+
+    <view class="yxzc_div">
+      <view class="content">
+        <view class="yxzc_content1">营销支持：</view>
+        <view class="yxzc_content2">蜂鸟国际</view>
+        <view class="yxzc_content2" style="margin-left:10rpx;">Copyright © 2013-2020 致设计</view>
+        <view class="yxzc_content3" bindtap="fnckdj">了解更多>></view>
+      </view>
+
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+</view>

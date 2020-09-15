@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-tab": "/miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/vant-weapp/tabs/index",
+    "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+  },
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "鼎易",
+    "navigationStyle": "custom"
+}

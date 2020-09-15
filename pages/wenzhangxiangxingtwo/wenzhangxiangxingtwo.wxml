@@ -1,0 +1,157 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="width:100%;">
+    <view class="header"></view>
+  </view>
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;">
+    <view class="title_div">致敬新时代，探索LED灯照明新未来</view>
+    <view class="main_div">
+      LED大灯成为主流配置的现在，应该怎样去挑选一款高性能的车灯呢？
+      今天我们就通过鼎易夜精灵V12来和大家探讨一下。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      高亮聚光
+    </view>
+    <view class="main_div">
+      电视上经常能看到这样的新闻报道，因为路面年久失修，缺失路灯，导致行车事故的频发，归根结底都是因为车灯射程的原因。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12的流明值达到了6500，打开近光灯铺路能达到68米无阴影照明，切换成远光灯射程将达到120米高聚光，即使在黑暗狭长的路段也能清晰识别前方路况，有效杜绝交通事故的发生，保障出行安全。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_mindiv">
+      完美光型
+    </view>
+    <view class="main_div">
+      刚更换了车灯，夜晚出行试驾，在车辆密集的黑暗路段上，如果光型不贴合原车，容易给过往车辆造成困扰。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12 360°自由调光加定点发明专利，支持自定义卡扣调节，完美贴合原 车光型不晃眼，增加视觉清晰度，减少行车困扰，及时查看路面，夜晚行车更加安全。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_mindiv">
+      高性能强光源
+    </view>
+
+    <view class="main_div">
+      蜡烛光一直是个大难题，夜晚光线昏暗，照明不足，障碍物即使出现在视野中，也会因为周边光线暗淡引发视觉错误，导致发生安全事故，最有效的解决办法就是更换车灯，杜绝因为灯光不亮导致交通事故的发生。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12，搭载65W超大功率车规级芯片，最高性能，最强光源，从源头解决一切因为蜡烛光导致的交通安全事故，照亮行车之路，保障车辆夜行平安。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      强劲散热
+    </view>
+
+    <view class="main_div">
+      众所周知LED大灯对散热要求非常高，而市面上普通的LED大灯不耐高温，材质较差，容易因为温度过高而导致报废，车灯更换频繁。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12搭配了液压保油风扇，高效散热，使用寿命更长，即使在高温天气下也能超长使用。相比市面上普通的LED大灯，夜精灵V12在正常温度下可使用30000小时！
+    </view>
+
+    <view class="main_mindiv">
+      百变安装
+    </view>
+
+    <view class="main_div">
+      氙气灯造型单一且体积非常大，常规LED灯无法适配原接口，因此除了原车车灯外，想找合适又好看车灯是一件非常困难的事情。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12灯珠体积小，安装多样化，兼容性强，能够适配轿车，出租车，越野车等多款车型，适配率高达99.6%！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵V12在节能环保的基础上，还具备输出光线强度高，高动能散热，使用寿命长，百变安装等更多优势。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易作为持续深耕汽车后市场的高科技的企业，一直严格遵循机动车辆安全标准和生产制作品质管理规范，为广大车主和经销商交付大批量的优质产品，守护行车安全。
+      选择鼎易，光明前行！
+
+    </view>
+
+
+
+  </view>
+
+
+  <view class="tag_maxdiv" style="width: 100%;">
+
+    <view class="red_div"></view>
+
+    <view class="yxzc_div">
+      <view class="content">
+        <view class="yxzc_content1">营销支持：</view>
+        <view class="yxzc_content2">蜂鸟国际</view>
+
+        <view class="yxzc_content3" bindtap="fnckdj">了解更多>></view>
+      </view>
+
+    </view>
+  </view>
+
+
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

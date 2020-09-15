@@ -1,0 +1,167 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="width:100%;">
+    <view class="header"></view>
+  </view>
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;">
+    <view class="title_div">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
+    <view class="main_div">
+      今年已经度过大半，疫情却依然还在全球肆虐，汽车照明市场跌宕起伏，但越困难，鼎易越要迎难而上，通过独有的会议营销模式，促进行业动能提升，带动市场复苏。
+      继马鞍山的会议之后，鼎易继续将热度带向更多的城市。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image  mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      江西的经销商们作为新一批的战略合作伙伴，始终与鼎易保持着紧密的合作，在较短的时间内，快速辐射市场，取得了不错的销售成绩。鼎易希望通过本次江西乐平品牌财富峰会的举办，进一步开拓江西市场，与本地的代理商们构建更加紧密的战略合作，为之后终端门店销售工作的开展，打下坚实的基础。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      为了答谢各位经销商们对鼎易的全力支持，鼎易先送出重磅福利，在场的各位家人们可以通过朋友圈集赞形式赢取车灯。会前的一波豪礼，最大程度的点燃现场的热度，同时也获得了大家的高度赞誉！
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      会议正式开始，主办方彭总致欢迎词。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_mindiv">
+      江西乐平代理商彭总
+    </view>
+    <view class="main_div">
+      在接下来的会议上，鼎易运营总监田总，对本次江西乐平会议发表了重要讲话，把当下时事与鼎易独有的营销模式相结合，对如何进行市场暴风突围，攀登行业顶端，实现盈收创富等问题，发表了自己的看法。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+    <view class="main_div">
+      田总强调，在后疫情时代，鼎易对市场进行突围的行动会一直持续着，并与各位经销商们携手共进。
+      如何溶解行业凝固点，促进品类发展？鼎易将市场冰层做了全面解析，及时锁定问题，并合理的做出解决方针，制定了完善的营销策略，利用独有的会议模式，做全国各地的家人们的财富明灯，指引创富，最大程度的引领市场前进，为接下来终端门店创收盈利奠定了基础。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      接下来，田总还给在场经销商详细介绍了夜精灵系列产品的核心卖点并进行了相关培训。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;">
+      “一款车灯需要经过不断的测试与打磨，才能放心交由到大家手里”
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      夜精灵系列车灯，搭载具有液压保油功能的风扇，另外还拥有完美光型、高能聚光等特点。
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_mindiv">
+      鼎易夜精灵系列产品
+    </view>
+    <view class="main_div">
+      我们坚信，好的产品不仅是光源性能的革新，更是未来车规科技的代表者
+    </view>
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      夜精灵系列产品获得了在场家人们的高度赞扬，现场掌声热烈高昂，气氛非常活跃！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易江西项目负责人王总
+    </view>
+
+    <view class="main_div">
+      鼎易江西项目负责人王总随后公布了相关福利政策。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr12}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在家人们的欢声笑语中，本次江西乐平会议也圆满结束，鼎易的脚步一直在向前进，在未来鼎易将会不断的通过独有的会议模式，在更多省市传授经验，为更多的经销商们提供分享品牌红利蛋糕的机会。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr13}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在最后的晚宴环节，现场家人们也在不断吸收本次会议分享所带来经验，也与其他经销商分享自己独到的经营方针。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr14}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      江西乐平品牌财富峰会现场
+    </view>
+
+    <view class="main_div">
+      鼎易作为汽车电子领域的标杆企业，一直以“领航市场，服务客户”为宗旨，在专注于高质量产品生产的同时，始终不忘积极践行企业责任与担当，将最优质的的服务带给客户，在以后的时间里，鼎易会以更加具有特点的品牌，更有品质的服务，更具优势的产品，来回报广大经销商和代理商。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr15}}' wx:key="id">
+      <image mode="widthFix"  src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+     鼎易，继续向前冲吧！
+    </view>
+
+
+
+  </view>
+  <view class="tag_maxdiv" style="width: 100%;">
+
+    <view class="red_div"></view>
+
+    <view class="yxzc_div">
+      <view class="content">
+        <view class="yxzc_content1">营销支持：</view>
+        <view class="yxzc_content2">蜂鸟国际</view>
+
+        <view class="yxzc_content3" bindtap="fnckdj">了解更多>></view>
+      </view>
+
+    </view>
+  </view>
+
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>
