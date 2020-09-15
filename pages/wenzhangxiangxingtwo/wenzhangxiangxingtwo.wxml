@@ -1,9 +1,9 @@
 <view class="container">
 
-  <view class="tag_maxdiv" style="width:100%;">
+  <!-- <view class="tag_maxdiv" style="width:100%;">
     <view class="header"></view>
-  </view>
-  <view class="tag_maxdiv" style="padding-bottom: 40rpx;">
+  </view> -->
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
     <view class="title_div">致敬新时代，探索LED灯照明新未来</view>
     <view class="main_div">
       LED大灯成为主流配置的现在，应该怎样去挑选一款高性能的车灯呢？

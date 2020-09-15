@@ -38,6 +38,16 @@ Page({
       url: "../brandone/brandone"
     })
   } ,
+  brandtwo: function (e) {
+    wx.navigateTo({
+      url: "../brandtwo/brandtwo"
+    })
+  } ,
+  brandthree: function (e) {
+    wx.navigateTo({
+      url: "../brandthree/brandthree"
+    })
+  } ,
 
   /**
    * 生命周期函数--监听页面加载

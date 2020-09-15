@@ -1,10 +1,10 @@
 <view class="container">
 
-  <view class="tag_maxdiv" style="width:100%;">
+  <!-- <view class="tag_maxdiv" style="width:100%;">
     <view class="header"></view>
-  </view>
+  </view> -->
 
-  <view class="tag_maxdiv" style="padding-bottom: 40rpx;">
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
     <view class="title_div">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
     <view class="main_div">
       今年已经度过大半，疫情却依然还在全球肆虐，汽车照明市场跌宕起伏，但越困难，鼎易越要迎难而上，通过独有的会议营销模式，促进行业动能提升，带动市场复苏。

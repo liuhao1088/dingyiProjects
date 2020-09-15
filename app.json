@@ -3,8 +3,11 @@
     "pages/index/index",
     "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
-    "pages/wenzhangxiangxingone/wenzhangxiangxingone",  
-    "pages/brandone/brandone"
+    "pages/wenzhangxiangxingone/wenzhangxiangxingone" ,
+    "pages/brandone/brandone",
+    "pages/brandtwo/brandtwo",
+    "pages/brandthree/brandthree"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
