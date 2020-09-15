@@ -1,10 +1,9 @@
 {
   "pages":[
-    "pages/fengniaoguoji/fengniaoguoji",
     "pages/index/index",
+    "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
     "pages/wenzhangxiangxingone/wenzhangxiangxingone",  
-    
     "pages/brandone/brandone"
   ],
   "window":{
