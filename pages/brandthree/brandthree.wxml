@@ -61,25 +61,13 @@
         src="https://img12.360buyimg.com/ddimg/jfs/t1/113785/9/17891/2408530/5f60a09cE7333ba80/5b86ad7b92c9c644.jpg">
       </image>
   </view>
-
-  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
-
-    <view class="red_div"></view>
-
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;" >
     <view class="yxzc_div" bindtap="fnckdj">
-      <!-- <view class="content">
-        <view class="yxzc_content1">营销支持：</view>
-        <view class="yxzc_content2">蜂鸟国际</view>
-
-        <view class="yxzc_content3" >了解更多>></view>
-      </view> -->
-      <image style="width: 100%;height: 100%;"
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/148553/21/8494/428803/5f617271E030422e2/5af8874323abe93b.jpg">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/149754/24/9169/336849/5f69b6e0Ec38327e0/c1efdc398b62dbd4.jpg">
       </image>
-
     </view>
   </view>
-
 </view>
 
 <view class="nav_div" style="top: {{top}};">
