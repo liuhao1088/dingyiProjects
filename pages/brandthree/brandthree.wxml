@@ -62,7 +62,7 @@
       </image>
   </view>
   <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;" >
-    <view class="yxzc_div" bindtap="fnckdj">
+    <view class="yxzc_div" >
       <image mode="widthFix" style="width: 100%;height: 100%;"
         src="https://img12.360buyimg.com/ddimg/jfs/t1/149754/24/9169/336849/5f69b6e0Ec38327e0/c1efdc398b62dbd4.jpg">
       </image>
