@@ -5,6 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgUrl:[
+      'https://img12.360buyimg.com/ddimg/jfs/t1/112098/27/18029/504468/5f60a01bE064e34a6/cad9729ef9feba66.jpg',
+      'https://s1.ax1x.com/2020/09/15/w6ExmR.md.jpg',
+      'https://img10.360buyimg.com/ddimg/jfs/t1/115298/12/19148/1094071/5f6daab9Edd0f4f92/6d281f09dc0f699e.jpg',
+      'https://s1.ax1x.com/2020/09/15/w6V09U.md.jpg'
+    ],
     indicatorDots: true,
     autoplay: true,
     interval: 3000,

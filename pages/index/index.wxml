@@ -3,24 +3,9 @@
     <view class="lbt_div">
       <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
         style="height:100%;">
-        <swiper-item>
-          <image mode="widthFix"
-            src="https://img10.360buyimg.com/ddimg/jfs/t1/124856/8/12620/935208/5f6097f6Efbe75dc7/68a28f980178cf14.jpg"
-            class="slide-image" />
+        <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
+          <image mode="widthFix" src="{{item}}" class="slide-image" />
         </swiper-item>
-
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6ExmR.md.jpg" class="slide-image" />
-        </swiper-item>
-
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6VdhT.jpg" class="slide-image" />
-        </swiper-item>
-
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6V09U.md.jpg" class="slide-image" />
-        </swiper-item>
-
 
       </swiper>
     </view>
@@ -118,14 +103,14 @@
   <view class="tag_maxdiv">
     <view class="tag">
       <view class="gsjs_div">进一步了解</view>
-       <view class="ckgd_div" bindtap="detailsdj">
+      <view class="ckgd_div" bindtap="detailsdj">
         <view class="ckgd_nrdiv">
           <view class="ckgd_iocn">
             <van-icon name="arrow" />
           </view>
           <view class="ckgd_nr">查看更多</view>
         </view>
-      </view> 
+      </view>
     </view>
 
     <view class="layout">

@@ -3,23 +3,10 @@
     <view class="lbt_div">
       <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
         style="height:100%;">
-        <swiper-item>
-          <image mode="widthFix"
-            src="https://img12.360buyimg.com/ddimg/jfs/t1/112098/27/18029/504468/5f60a01bE064e34a6/cad9729ef9feba66.jpg"
-            class="slide-image" />
+        <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
+          <image mode="widthFix" src="{{item}}" class="slide-image" />
         </swiper-item>
 
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6ExmR.md.jpg" class="slide-image" />
-        </swiper-item>
-
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6VdhT.jpg" class="slide-image" />
-        </swiper-item>
-
-        <swiper-item>
-          <image mode="widthFix" src="https://s1.ax1x.com/2020/09/15/w6V09U.md.jpg" class="slide-image" />
-        </swiper-item>
       </swiper>
     </view>
   </view>
@@ -46,23 +33,23 @@
 
   <view class="tag_maxdiv" style="width:90%;margin-top: 20rpx;">
     <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img10.360buyimg.com/ddimg/jfs/t1/143957/1/8663/416081/5f60a067Efb689910/58905aac97eba28a.jpg">
-      </image>
+      src="https://img10.360buyimg.com/ddimg/jfs/t1/143957/1/8663/416081/5f60a067Efb689910/58905aac97eba28a.jpg">
+    </image>
   </view>
 
   <view class="tag_maxdiv" style="width:90%;margin-top: 20rpx;">
     <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/119972/29/12805/502723/5f60a079E3a4bce91/bf1d2e3f349fdec4.jpg">
-      </image>
+      src="https://img13.360buyimg.com/ddimg/jfs/t1/119972/29/12805/502723/5f60a079E3a4bce91/bf1d2e3f349fdec4.jpg">
+    </image>
   </view>
 
   <view class="tag_maxdiv" style="width:90%;margin-top: 20rpx;">
     <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/113785/9/17891/2408530/5f60a09cE7333ba80/5b86ad7b92c9c644.jpg">
-      </image>
+      src="https://img12.360buyimg.com/ddimg/jfs/t1/113785/9/17891/2408530/5f60a09cE7333ba80/5b86ad7b92c9c644.jpg">
+    </image>
   </view>
-  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;" >
-    <view class="yxzc_div" >
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
       <image mode="widthFix" style="width: 100%;height: 100%;"
         src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
       </image>
