@@ -1,12 +1,10 @@
 {
   "pages":[
-    "pages/wenzhangxiangxingfour/wenzhangxiangxingfour" ,
-    "pages/details/details",
-    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
-   
-    "pages/wenzhangxiangxingfives/wenzhangxiangxingfives",
-   
     "pages/index/index",
+    "pages/wenzhangxiangxingfives/wenzhangxiangxingfives",
+    "pages/details/details",
+    "pages/wenzhangxiangxingfour/wenzhangxiangxingfour" ,
+    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
     "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
     "pages/wenzhangxiangxingone/wenzhangxiangxingone" ,

@@ -1,2 +1,325 @@
-<!--pages/wenzhangxiangxingfives/wenzhangxiangxingfives.wxml-->
-<text>pages/wenzhangxiangxingfives/wenzhangxiangxingfives.wxml</text>
+<view class="container">
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">勇攀高峰，登顶光明|鼎易再战安徽“珍珠城”</view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      安徽濒江近海，有八百里的沿江城市群和皖江经济带，内拥长江水道，外承沿海地区经济辐射，本次鼎易将继续在安徽大地上，续写无尽辉煌！
+
+      此次，鼎易在安徽的金寨、铜陵、六安连续开展了三场品牌财富峰会，最大程度的的唤醒渠道活力，促进品类发展，与更多的经销商共享品牌发展红利！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易一直致力于通过独有的会议模式，为安徽的家人们开启财富大门，同时实现了品牌高度曝光，最大程度的促进市场活跃性，为未来门店销售利润增加提供了最坚实的基础。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      安徽一直是鼎易非常重视的市场。本场品牌财富峰会，力争带领安徽的家人们，破除冰封市场，一举攀登顶峰，为终端门店未来的发展提供可持续的燃料。
+    </view>
+
+    <view class="main_div_img" style="margin-top: 60rpx;">
+      <view class="title">安徽金寨站
+        <view class="kuang"></view>
+      </view>
+
+    </view>
+
+    <view class="main_div" style="margin-top: 40rpx;">
+      9月19日，主持人鼎易省代理肖总宣布安徽金寨会议正式开始，由主办方舒总致辞，表示对与会家人们的欢迎。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易安徽省代理肖总
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      安徽金寨站品牌财富峰会主办方舒总
+    </view>
+
+    <view class="main_div">
+      随后鼎易运营总监田总就本次会议发表了自己的看法。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      田总表示，鼎易一直根据实际现况，实时调整销售模式，做到针对性，持续性的有效营销。此外会议上田总还对如何解固冰封市场，点燃行业活力，领航经销商走上致富之路等问题，做出了关键性的解答。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      对于田总的讲话，在场经销商们赞不绝口，掌声的热浪一层盖过一层。此后，田总为我们详细讲解了鼎易夜精灵系列产品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;">
+      “好的产品不仅需要打磨，还需要用心投入”
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易一直保持着高科技汽车电子照明行业顶端，以鼎易夜精灵系列为例，其搭载了液压保油风扇，拥有高适配率安装、完美光型，强劲散热，高亮聚光等特点。鼎易一直致力于发散产品的独特性，并以此为载体，将品牌的光芒无限放大。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在此之后，主持人公布了相关政策，将会议的热度，推向了高潮。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      最后，在大家的热烈的掌声中，本次金寨品牌财富峰会到此圆满结束，晚宴上，在场家人们讨论热烈，并互相分享自己独到的销售经验。
+    </view>
+
+    <view class="main_div_img" style="margin-top: 60rpx;">
+      <view class="title">安徽铜陵站
+        <view class="kuang"></view>
+      </view>
+    </view>
+
+    <view class="main_div" style="margin-top: 40rpx;">
+      9月21日的铜陵会议的主持人由安徽省代宋总担任，随后主办方吴总发言致辞表示欢迎，感谢到场的经销商们相信鼎易，同时也宣布了集赞换车灯的活动，带动了现场的气氛。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr12}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易安徽省代宋总
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr13}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      安徽铜陵站品牌财富峰会主办方吴总
+    </view>
+
+    <view class="main_div">
+      接下来鼎易运营总监田总介绍了公司矩阵与相关产品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr14}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      在疫情之中，鼎易选择实践社会责任，为疫情灾区提供了众多医疗物资；在后疫情时代，鼎易仍然同大家站在一起，重铸行业热情，唤醒市场活力，为终端门店的续存与运营，铸就坚实的基础。
+
+      同时田总也为各位介绍了夜精灵系列车灯，让在场的家人们能对鼎易的产品有更深层次的了解。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr15}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      在此后，主持人公布了集赞中奖的名单，多位幸运的经销商获得了鼎易送出的惊喜礼品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr16}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      现场抽奖环节中奖的家人们
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr17}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      集赞中奖的家人们
+    </view>
+
+    <view class="main_div">
+      最后，铜陵会议在大家的欢声笑语中落下帷幕。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr18}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div_img" style="margin-top: 60rpx;">
+      <view class="title">安徽六安站
+        <view class="kuang"></view>
+      </view>
+    </view>
+
+    <view class="main_div" style="margin-top: 40rpx;">
+      本次安徽之旅的最后一站-六安站。
+      9月22日，六安品牌财富峰会正式召开。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr19}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易安徽省代理肖总
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr20}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      安徽六安站品牌财富峰会主办方汤总
+    </view>
+
+    <view class="main_div">
+      省代肖总担任主持人宣布会议正式召开，六安代理商汤总致欢迎词，欢迎到场家人们，感谢与会家人们对鼎易的肯定。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr21}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      在此之后，田总表示把当下实时现况与鼎易独有的营销模式相结合，对行业进行暴风突围，跳跃行业断层，稳固终端门店等问题，发表了自己的看法。通过这种独有的会议营销模式，鼎易一直积极深挖行业底层宝藏，带动所有经销商们一同挖掘出属于自己的财富密码。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr22}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      在讲解了夜精灵产品之后，主持人宣布了相关政策，同时，本场会议也通过朋友圈集赞的方式送出了我们鼎易夜精灵系列车灯，现场抽选了几位家人们送出了鼎易带来的礼品一份。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr23}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      现场抽奖环节中奖的家人们
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr24}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      集赞中奖的家人们
+    </view>
+
+    <view class="main_div">
+      最后在各位家人们的欢笑声中，六安品牌财富峰会也圆满结束。
+    </view>
+
+
+    <view class="main_div_img" wx:for='{{imgArr25}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+    <view class="main_div">
+      鼎易作为汽车电子照明领域的领航企业，一直以来秉承着产品质量优先的理念，为广大车主和经销商交付大批量的优质产品，未来，鼎易也将不忘初衷，将高质量的产品带给每一位经销商，携领大家走向致富之道。
+    </view>
+
+    <view class="main_div" style="font-weight:700;">
+      鼎易，扬帆起航，光明前行。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr26}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+
+
+
+
+
+
+
+  </view>
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+
+
+
+</view>
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

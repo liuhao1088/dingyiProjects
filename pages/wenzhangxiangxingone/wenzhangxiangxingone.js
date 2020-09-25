@@ -54,7 +54,7 @@ Page({
   },
   fanhuidj:function(){
     wx.reLaunch({
-       url: "../index/index"
+       url: "../details/details"
      })
  },
 
