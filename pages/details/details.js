@@ -33,6 +33,16 @@ wenzhangdjthree:function(){
      url: "../wenzhangxiangxingthree/wenzhangxiangxingthree"
    })
   },
+  wenzhangdjfour:function(){
+    wx.navigateTo({
+       url: "../wenzhangxiangxingfour/wenzhangxiangxingfour"
+     })
+    },
+    wenzhangdjfives:function(){
+      wx.navigateTo({
+         url: "../wenzhangxiangxingfives/wenzhangxiangxingfives"
+       })
+      },
   /**
    * 生命周期函数--监听页面加载
    */

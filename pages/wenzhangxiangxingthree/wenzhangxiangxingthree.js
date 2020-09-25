@@ -61,6 +61,42 @@ Page({
     ],
     
   },
+  fanhuidj:function(){
+    wx.reLaunch({
+       url: "../details/details"
+     })
+ },
+
+ zhuyefanhuidj:function(){
+  wx.reLaunch({
+     url: "../index/index"
+   })
+},
+  previewImg:function(e){
+    console.log(e.currentTarget.dataset.index);
+    var index = e.currentTarget.dataset.index;
+    var newImgArr3=this.data.imgArr.concat(this.data.imgArr2);
+    var newImgArr4=this.data.imgArr3.concat(newImgArr3);
+    var newImgArr5=this.data.imgArr4.concat(newImgArr4);
+    var newImgArr6=this.data.imgArr5.concat(newImgArr5);
+    var newImgArr7=this.data.imgArr6.concat(newImgArr6);
+    var newImgArr8=this.data.imgArr7.concat(newImgArr7);
+    var newImgArr9=this.data.imgArr8.concat(newImgArr8);
+    var newImgArr10=this.data.imgArr9.concat(newImgArr9);
+    var newImgArr11=this.data.imgArr10.concat(newImgArr10);
+    var newImgArr12=this.data.imgArr11.concat(newImgArr11);
+    var newImgArr13=this.data.imgArr12.concat(newImgArr12);
+    var newImgArr14=this.data.imgArr13.concat(newImgArr13);
+    var newImgArr15=this.data.imgArr14.concat(newImgArr14);
+    console.log(newImgArr15);
+    wx.previewImage({
+      current: newImgArr15[index],     //当前图片地址
+      urls: newImgArr15,               //所有要预览的图片的地址集合 数组形式
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

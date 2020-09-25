@@ -1,0 +1,160 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">勇攀高峰，登顶光明|鼎易再战安徽“珍珠城”</view>
+
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      9月16日鼎易抵达了安徽蚌埠，蚌埠“古乃采珠之地”，故素有“珍珠城”的美誉。我们希望本次品牌财富峰会，鼎易能像蚌埠这颗璀璨的珍珠一般，在安徽这片大地上熠熠生辉。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      品牌财富峰会主旨在于破局，赋能，共赢，鼎易力争通过此次峰会，快速实现行业突围，带动市场活跃，赋能终端门店，为未来实现与广大经销商的双赢，打下坚实的基础。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      会议还未开始，鼎易首先送出一波壕礼，集赞送灯活动，点燃在场家人的们的热情。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      会议正式开始，由总代理商肖总致开场词，蚌埠代理商徐总致欢迎词。表示对与会经销商们的欢迎。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      总代理商肖总
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      总代理商徐总
+    </view>
+
+    <view class="main_div">
+      随后鼎易运营总监田总就本次会议发表了自己的看法
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      田总表示：每次峰会整个鼎易都十分重视，希望更快帮助家人们消除疫情带来的影响。鼎易作为一个高速发展中的科技企业，积极组织品牌和产品的对各个渠道的渗透，大力度的投入终端门店的建设和维护，目前已在全国开展了30余场次的财富峰会，从省级、市级、县级等多维度多角度深挖行业黄金，确保鼎易在行业停摆的状态下，逆风前行，领衔未来，将核心竞争力发挥到极致！”
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      田总的讲话获得在场经销商们的一致认同，掌声不断，此后，田总为我们详细讲解了鼎易夜精灵系列产品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div" style="font-weight: 700;">
+      “制造一款好的车灯需要全力以赴，并以最好的姿态出现在世人面前”
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易一直致力于攀登高科技电子照明行业顶峰，以鼎易夜精灵系列为例，其搭载了液压保油风扇，拥有高适配率安装、完美光型，强劲散热，高亮聚光等特点，确保产品一直保持行业最高水准，将鼎易的光芒无限放大。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在此之后，肖总公布了相关政策，并宣布了集赞送灯的获奖情况，将会议的热度，推向了高潮。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr12}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      会议期间，也抽选了三轮礼品，将来自鼎易的一份心意，送给了在场的家人们
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr13}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      最后，在大家的欢声笑语中，本次蚌埠品牌财富峰会到此圆满结束，晚宴上，在场家人们在吸收本次会议分享所带来经验的同时，也将自己独到的经营方针分享给其他的经销商们。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr14}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易作为汽车电子照明领域的领航企业，一直致力于将高质量的产品与优质的服务带给每一位渠道商，同时积极投身于社会实践当中，将品牌信念一直传承下去。未来，鼎易也将不忘初衷，每次登场，都会以最优质的的状态出现在大家面前，携领广大渠道商走向创富共赢。
+
+      鼎易，始于照明，领航未来。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr15}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+  </view>
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+</view>
+
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

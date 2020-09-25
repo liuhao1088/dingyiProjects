@@ -32,9 +32,40 @@
 
       </view>
 
+      <view class="layout_maxdiv" bindtap="wenzhangdjfour">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">勇攀高峰，登顶光明|鼎易再战安徽“珍珠城”</view>
+          <view class="layout_date">2020年9月18日</view>
+        </view>
+
+      </view>
 
 
       <view class="layout_maxdiv" bindtap="wenzhangdjthree">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">霸者重返，光明降临|鼎易再战山东临沂！</view>
+          <view class="layout_date">2020年9月11日</view>
+        </view>
+
+      </view>
+
+      
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjfives">
         <view class="layout_imgdiv">
           <view class="layout_img">
             <image  style="width: 100%;height: 100%;border-radius: 12rpx; "

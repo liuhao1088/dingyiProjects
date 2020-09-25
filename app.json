@@ -1,7 +1,11 @@
 {
   "pages":[
-    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
+    "pages/wenzhangxiangxingfour/wenzhangxiangxingfour" ,
     "pages/details/details",
+    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
+   
+    "pages/wenzhangxiangxingfives/wenzhangxiangxingfives",
+   
     "pages/index/index",
     "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
