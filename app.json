@@ -1,12 +1,12 @@
 {
   "pages":[
-    
+    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
     "pages/details/details",
     "pages/index/index",
     "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
     "pages/wenzhangxiangxingone/wenzhangxiangxingone" ,
-    "pages/wenzhangxiangxingthree/wenzhangxiangxingthree" ,
+   
     "pages/brandone/brandone",
     "pages/brandtwo/brandtwo",
     "pages/brandthree/brandthree"

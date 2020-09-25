@@ -1,1 +1,148 @@
-/* pages/wenzhangxiangxingthree/wenzhangxiangxingthree.wxss */
+.header {
+  width: 100%;
+  height: 400rpx;
+  background-color: tomato;
+}
+
+.tag_maxdiv {
+  width: 90%;
+  float: left;
+}
+
+.nav_div {
+  position: fixed;
+  left: 20rpx;
+  width: 180rpx;
+  height: 60rpx;
+  border-radius: 40rpx;
+  background-color: white;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_maxdiv {
+  width: 70%;
+  height: 100%;
+  border: 0rpx solid black;
+}
+
+.nav_iocndiv {
+  float: left;
+  height: 100%;
+  width: calc(100%/2);
+  line-height: 74rpx;
+  font-size: 44rpx;
+  text-align: center;
+
+}
+
+.iocn {
+  height: 100%;
+  float: left;
+}
+
+.side {
+  float: right;
+  height: 50%;
+  margin-top: 16rpx;
+  border: 1rpx solid #83919D;
+}
+
+.title_div{
+  width: 100%;
+  font-size: 36rpx;
+  font-weight: 700;
+  text-align: center;
+  line-height: 60rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.main_div{
+  width: 100%;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  text-indent:2em;
+  margin-top: 20rpx;
+}
+
+.main_mindiv{
+  width: 100%;
+  font-size: 20rpx;
+  line-height: 34rpx;
+  margin-top: 20rpx;
+  color: #AEAEAE;
+  text-align: center;
+}
+
+.main_div_img{
+  width: 100%;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  
+
+}
+
+.main_div_img image{
+  height: 100%;
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+
+.red_div{
+  height: 16rpx;
+  width: 100%;
+  background-color: #cb0026;
+  float: left;
+}
+
+.yxzc_div{
+  width: 100%;
+  background-color: #202020;
+  float: left;
+}
+
+.content{
+  height: 40rpx;
+  width: 100%;
+  border: 0rpx red solid;
+  float: left;
+  margin-top: 4%;
+}
+
+.yxzc_content1{
+  height: 100%;
+  font-weight: 800;
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 40rpx;
+  border: 0rpx blue solid;
+  margin-left: 46rpx;
+  font-size: 24rpx;
+}
+
+.yxzc_content2{
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 40rpx;
+  float: left;
+  font-size: 20rpx;
+}
+
+.yxzc_content3{
+  height: 100%;
+  width: 160rpx;
+  color: white;
+  background-color: #cb0026;
+  float: right;
+  text-align: center;
+  line-height: 40rpx;
+  margin-right: 50rpx;
+  font-size: 20rpx;
+  border-radius: 90rpx;
+}

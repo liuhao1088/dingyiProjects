@@ -1,2 +1,147 @@
-<!--pages/wenzhangxiangxingthree/wenzhangxiangxingthree.wxml-->
-<text>pages/wenzhangxiangxingthree/wenzhangxiangxingthree.wxml</text>
+<view class="container">
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">霸者重返，光明降临|鼎易再战山东临沂！</view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+    <view class="main_div">
+      自六月份以来，鼎易已经在各个省份举办了多场品牌财富峰会，且取得了巨大的成功，并继续以破局，赋能，共赢为主题，在全国各地开展财富峰会。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      本次会议于9月9日在山东临沂举行，秉承着促进行业动能提升，带动市场复苏的愿景，再次来到山东这片大地上，山东一直是鼎易强有力的合作伙伴，自品牌运营伊始，山东经销商始终跟随品牌发展步伐共同前进，不仅一起度过了多个年头，还实现了双方财富共赢。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易山东品牌财富峰会现场
+    </view>
+    <view class="main_div">
+      莅临本次会议的有主办方郁总，鼎易运营总监田总，行业资深策划米哥，分别针对行业现况与如何实现行业突围发表了自己的看法，同时还介绍了鼎易夜精灵系列产品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易山东品牌财富峰会现场
+    </view>
+
+    <view class="main_div">
+      在会议上，田总强调，在后疫情时代，鼎易之所以能够飞速向着未来奔跑着，靠的不仅是精准的市场营销分析，又与在场家人们的始终支持密不可分。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      疫情还在持续当中，我们仍然不可松懈，对于鼎易来说，仍需顶住压力，突破冰层，通过开展独特的品牌财富峰会的方式，树立品牌旗帜，促进行业趋势，激发品类发展，最大程度唤醒市场，为终端门店未来发展提供了最佳的发展契机。
+
+      田总还介绍了夜精灵系列产品，田总表示“一款好的产品经得起钻研和细探”
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易会一直保持着对产品的打磨，以鼎易夜精灵系列为例，其搭载了液压保油风扇，拥有高适配率安装、完美光型，强劲散热，高亮聚光等特点，保证每一次亮相，都以颠覆视界的姿态登场。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在此次会议上，行业资深策划米哥对如何实现行业突围讲出了自己的见解
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      行业资深策划米哥
+    </view>
+
+    <view class="main_div">
+      米哥详细讲解了在疫情时代，如何快速突破行业围栏，寻找新方向与新航道。米哥表示，一家企业想要持续稳健的发展下去，必须随时保持对市场的敏感度，并且持续对产品革新与研发。不断提高品牌调性，将自身提升到新的层次，精准营销，精确落地，实现创富。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      山东品牌财富峰会的授权仪式由郁总主持并颁发授权牌。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易是一直保持对自身不断的调整，在专注于高质量产品生产的同时，始终不忘积极践行企业责任与担当，以最好的姿态，全心全意的为广大经销商带来更好更完美的服务。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr12}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      此外，第二十二届汽车用品展览会上也有鼎易的身影哦，将高品质的产品带给有需求的人也一直是鼎易的愿景，展会现场宾客如云，人气火爆，这也侧面反映了鼎易无论是产品还是营销模式，都是能够精准定位市场。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr13}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      2020年对于鼎易来说，既是机遇也是挑战，因为只有经历风雨的洗涤，才能窥见光明的未来。此次山东品牌财富峰会及临沂展会的举办，鼎易不仅实现了品牌的强曝光，唤醒了渠道活力，更通过优质产品的让更多的终端用户认识到鼎易一直以来对“品质”二字的不懈追求。
+
+      未来，鼎易将持续深耕产品研发，加快创新节奏，为终端销售提供更多极富销售潜力的优质产品，帮助全国的“鼎易人”快速迈向创富的康庄大道！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr14}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+  </view>
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+</view>
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

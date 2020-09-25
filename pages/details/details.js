@@ -7,7 +7,32 @@ Page({
   data: {
     top:"4%"
   },
+  fanhuidj:function(){
+    wx.reLaunch({
+       url: "../index/index"
+     })
+ },
 
+ zhuyefanhuidj:function(){
+  wx.reLaunch({
+     url: "../index/index"
+   })
+},
+wenzhangdjone:function(){
+  wx.navigateTo({
+     url: "../wenzhangxiangxingone/wenzhangxiangxingone"
+   })
+},
+wenzhangdjtwo:function(){
+wx.navigateTo({
+   url: "../wenzhangxiangxingtwo/wenzhangxiangxingtwo"
+ })
+},
+wenzhangdjthree:function(){
+  wx.navigateTo({
+     url: "../wenzhangxiangxingthree/wenzhangxiangxingthree"
+   })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
