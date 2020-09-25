@@ -101,7 +101,7 @@
   <view class="tag_maxdiv">
     <view class="img_div" bindtap="brandtwo">
       <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/129395/9/12659/209058/5f6098f7E06c0d4a0/e26b1af96c6c1021.jpg">
+        src="https://img13.360buyimg.com/ddimg/jfs/t1/140040/32/9057/122433/5f6d5ef8E52c0105c/5fd42ea6e737df6c.jpg">
       </image>
     </view>
   </view>
@@ -118,14 +118,14 @@
   <view class="tag_maxdiv">
     <view class="tag">
       <view class="gsjs_div">进一步了解</view>
-      <!-- <view class="ckgd_div">
+       <view class="ckgd_div" bindtap="detailsdj">
         <view class="ckgd_nrdiv">
           <view class="ckgd_iocn">
             <van-icon name="arrow" />
           </view>
           <view class="ckgd_nr">查看更多</view>
         </view>
-      </view> -->
+      </view> 
     </view>
 
     <view class="layout">
@@ -171,7 +171,7 @@
   <view class="tag_maxdiv" style="width: 100%;">
     <view class="yxzc_div">
       <image mode="widthFix" style="width: 100%;height: 100%;"
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/128129/38/13391/541088/5f6ad338E19f1ee4f/dc8f56d341e16d70.jpg">
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
       </image>
     </view>
   </view>

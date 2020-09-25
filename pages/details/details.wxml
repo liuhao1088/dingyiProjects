@@ -1,0 +1,76 @@
+<view class="container">
+  <view class="tag_maxdiv">
+    <view class="layout">
+
+      
+
+
+
+      <view class="layout_maxdiv" style="margin-top: 0;" bindtap="wenzhangdjone">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
+          <view class="layout_date">2020年9月20日</view>
+        </view>
+
+      </view>
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjtwo">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img10.360buyimg.com/ddimg/jfs/t1/147949/18/8430/89297/5f609b0bEda322c46/4d8ff55a3b485dec.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">致敬新时代，探索LED灯照明新未来</view>
+          <view class="layout_date">2020年9月20日</view>
+        </view>
+
+      </view>
+
+
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjone">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">霸者重返，光明降临|鼎易再战山东临沂！</view>
+          <view class="layout_date">2020年9月11日</view>
+        </view>
+
+      </view>
+
+
+
+      
+    </view>
+  </view>
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>
