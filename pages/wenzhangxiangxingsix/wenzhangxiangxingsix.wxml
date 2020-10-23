@@ -1,0 +1,219 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">开拓富饶沃土，征战华夏第一城，鼎易襄阳品牌财富峰会！</view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      在经历短暂的休息之后，鼎易重整旗鼓，继续踏上开拓财富沃土的道路，本次的目的地是素有“华夏第一城池”之称的湖北襄阳
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      襄阳已有2800多年建制历史，是楚文化、汉文化、三国文化的主要发源地，鼎易也将在这片土地上，通过独有的会议模式，带领襄阳的家人们，实现破局赋能，挖掘行业宝藏，开启财富大门。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      继十堰之后，襄阳也踏进了鼎易品牌营销的矩阵，襄阳也成为鼎易开拓湖北市场最坚实的后盾，本次会议，鼎易也希望能够为襄阳终端门店未来的发展提供可持续的燃料，也希望襄阳能够接力“赋能·破局·共赢”的大旗，让鼎易在这片土地上展现辉煌。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      另外，本次峰会计划在会议中的穿插抽奖活动，并送出鼎易带来的重磅礼品，同时，还将通过朋友圈集赞的方式，送出大额红包奖励。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易襄阳品牌财富峰会主持人
+    </view>
+
+    <view class="main_div">
+      襄阳会议正式开始，由主办方赵总致辞，代表鼎易欢迎与会的各位经销商们，并抽选第一轮获奖经销商，送出了来自鼎易的心意。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      襄阳品牌财富峰会主办方赵总
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      接下来由厂家代表鼎易品牌大区经理张经理介绍鼎易夜精灵系列产品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      厂家代表鼎易品牌大区经理张经理
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;">
+      “用行动做好产品，用心做好质量”
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易一直保持着超高的水平与热忱的心做最优质的的产品，以鼎易夜精灵系列为例，其搭载了液压保油风扇，拥有高适配率安装、完美光型，强劲散热，高亮聚光等特点，将产品的体验感做到极致，力争做更多车主的指路明灯。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr12}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      夜精灵系列产品获得了在场经销商们的高度认同，现场掌声热烈高昂，气氛异常火爆！在张经理发言之后抽选了第二轮获奖经销商，送出了十桶油作为奖品。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr13}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      随后鼎易运营总监田总发言，讲解鼎易的营销矩阵。
+
+      田总强调，在市场萎靡的当下，鼎易一直保持着对行业的促进与激发，并希望与各位经销商们携手一起推进行业前进。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr14}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      如何拆解市场封锁线，实现行业破局？鼎易对当下市场做了全面分析，及时锁定问题，制定了完善的营销方针，利用独有的会议模式，引导市场，促进品类发展，最大程度的引领市场前进，为接下来终端门店创收盈利奠定了基础。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr15}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      鼎易运营总监田总
+    </view>
+
+    <view class="main_div">
+      对于田总的讲话，现场的家人们赞不绝口，纷纷送上掌声，表示赞同与肯定。第三轮抽奖也伴随着田总发言的结束正式开始，这次抽选六位经销商送出了氙气灯终结者作为奖品！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr16}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      会议的尾声由赵总宣布相关政策并开启了订货环节，公布了订货奖品。
+    </view>
+
+    <view class="video_div">
+      <video style="width: 100%;height: 100%;" id="myVideo"
+        src="http://mpvideo.qpic.cn/0bf2uihdkaaob4amuimbmrpv5iwdgwra4nia.f10002.mp4?dis_k=36130fa80ff7d22a265cf59de377bd89&dis_t=1603443844&vid=wxv_1571695472979869704&format_id=10002"
+        binderror="videoErrorCallback" show-center-play-btn="true" controls auto-pause-if-navigate
+        play-btn-position="center"></video>
+    </view>
+
+    <view class="main_div">
+      在订货环节中，现场经销商们争先恐后，积极参与订货，同时也开启第四轮抽奖活动，抽选了两名经销商，送出了海康威视记录仪。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr17}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      晚宴上公布了成交用户与集赞活动的获奖名单，将晚宴的气氛进一步推向高潮。最后在与会家人的欢声笑语中本次襄阳品牌财富峰会圆满结束。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr18}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+    <view class="video_div">
+      <video style="width: 100%;height: 100%;" id="myVideo"
+        src="http://mpvideo.qpic.cn/0bf2d4heaaao3ial7zmbcbpv4h6diapq4qaa.f10002.mp4?dis_k=f98f71a06a7c3d512270eadfef58a96b&dis_t=1603443844&vid=wxv_1571695881991618568&format_id=10002"
+        binderror="videoErrorCallback" show-center-play-btn="true" controls auto-pause-if-navigate
+        play-btn-position="center"></video>
+    </view>
+
+
+    <view class="main_div">
+      鼎易作为汽车电子照明领域的标杆企业，一直以为广大车主和经销商交付更优质产品作为企业愿景，在品牌耕耘的道路上不断努力前进。未来，鼎易不忘初衷，将高质量的产品带给每一位经销商，携领大家开启致富之门。
+
+      鼎易，聚鼎光明，筑梦未来。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr19}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+
+
+
+
+  </view>
+
+
+
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

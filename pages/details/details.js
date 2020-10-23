@@ -5,55 +5,70 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"4%"
+    top: "4%"
   },
-  fanhuidj:function(){
+  fanhuidj: function () {
     wx.reLaunch({
-       url: "../index/index"
-     })
- },
-
- zhuyefanhuidj:function(){
-  wx.reLaunch({
-     url: "../index/index"
-   })
-},
-wenzhangdjone:function(){
-  wx.navigateTo({
-     url: "../wenzhangxiangxingone/wenzhangxiangxingone"
-   })
-},
-wenzhangdjtwo:function(){
-wx.navigateTo({
-   url: "../wenzhangxiangxingtwo/wenzhangxiangxingtwo"
- })
-},
-wenzhangdjthree:function(){
-  wx.navigateTo({
-     url: "../wenzhangxiangxingthree/wenzhangxiangxingthree"
-   })
+      url: "../index/index"
+    })
   },
-  wenzhangdjfour:function(){
+
+  zhuyefanhuidj: function () {
+    wx.reLaunch({
+      url: "../index/index"
+    })
+  },
+  wenzhangdjone: function () {
     wx.navigateTo({
-       url: "../wenzhangxiangxingfour/wenzhangxiangxingfour"
-     })
-    },
-    wenzhangdjfives:function(){
-      wx.navigateTo({
-         url: "../wenzhangxiangxingfives/wenzhangxiangxingfives"
-       })
-      },
+      url: "../wenzhangxiangxingone/wenzhangxiangxingone"
+    })
+  },
+  wenzhangdjtwo: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingtwo/wenzhangxiangxingtwo"
+    })
+  },
+  wenzhangdjthree: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingthree/wenzhangxiangxingthree"
+    })
+  },
+  wenzhangdjfour: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingfour/wenzhangxiangxingfour"
+    })
+  },
+  wenzhangdjfives: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingfives/wenzhangxiangxingfives"
+    })
+  },
+  wenzhangdjsix: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingsix/wenzhangxiangxingsix"
+    })
+  },
+  wenzhangdjseven: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingseven/wenzhangxiangxingseven"
+    })
+  },
+  wenzhangdjeight: function () {
+    wx.navigateTo({
+      url: "../wenzhangxiangxingeight/wenzhangxiangxingeight"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     var windowHeight = wx.getSystemInfoSync().windowHeight;
     console.log(windowHeight);
-    if(windowHeight>800){
+    if (windowHeight > 800) {
       this.setData({
         top: "6%"
       })
-    }else{
+    } else {
       this.setData({
         top: "4%"
       })
@@ -73,11 +88,11 @@ wenzhangdjthree:function(){
   onShow: function () {
     wx.showShareMenu({
 
-      withShareTicket:true,
-      
-      menus:['shareAppMessage','shareTimeline']
-      
-      })
+      withShareTicket: true,
+
+      menus: ['shareAppMessage', 'shareTimeline']
+
+    })
   },
 
   /**

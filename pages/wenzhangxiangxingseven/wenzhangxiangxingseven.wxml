@@ -1,0 +1,159 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">你还在担心换车灯过不了年审吗</view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">最近有收到咨询改灯的朋友的疑问：</view>
+    <view class="main_div">改灯可以过年检吗？</view>
+    <view class="main_div">答案是：可以的。</view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      因为在夜间驾驶汽车的时候，大灯的性能决定着司机的视野是否足够清晰。如果大灯不够亮，夜间照明不清晰的话，司机特别容易疲劳，导致夜间行车存在极大的安全隐患。为了驾驶更安全，所以车灯在一定的损耗后是需要更换的。
+    </view>
+
+    <view class="main_div">
+      当然，更换车灯也不是随便更换。
+    </view>
+
+    <view class="main_div">
+      那就说说关于年检对于灯光的要求是什么吧
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      1. 色温不能超过6000K
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      年审检测场的机器只能检测到6000K以下色温的灯光，超过这个数值就检测不到，监测不到当然就是不合理的。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      2. 灯光发散，散射严重——改灯一定要加透镜！
+    </view>
+
+
+    <view class="main_div">
+      道路交通安全法中要求，车辆驾驶时不得对其他道路交通参与者造成影响，而有的车主喜欢改装单LED的灯泡，由于没有透镜的约束，灯光发散，严重影响到了行人。所以改装的时候就要改透镜大灯才可以！
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      3. 亮度过低，检测时对于近光灯要求不得低于1200LM流明值。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      而我们的鼎易车灯零间距核心发光技术，最高搭配6000K色温，6500LM流明值。过审统统没问题。
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      现在市面上的车灯分三种卤素灯、氙气灯、LED灯。下面对比下三种车灯的光衰情况：
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      卤素灯光衰情况
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      对于卤素灯而言（使用寿命约500小时），一般半年光衰超过30%，当光衰20%就已经低于国家近光灯亮度的最低标准1200LM了。
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      氙气灯光衰情况
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      氙气灯较卤素灯的情况就要好很多，正常使用寿命为3000小时，一般能用到3年左右，但在2年半的时候就会光衰了。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700;margin-top: 60rpx;">
+      LED灯光衰情况
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      对比卤素灯和氙气灯，LED大灯的使用寿命足以让前两者黯然失色，望灯莫及。
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      LED大灯使用寿命在6万小时以上，理论上来说比整辆车的寿命还长，说不定你的车都报废了，LED大灯还崭亮如新。
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      鼎易LED灯，专注于高端车用照明系统，确保安全的前提下，提升照明功率。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易专业车灯，车规级标准，精益求精之作，行业领袖，高亮聚光，你的明智选择。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </view>
+
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+</view>
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

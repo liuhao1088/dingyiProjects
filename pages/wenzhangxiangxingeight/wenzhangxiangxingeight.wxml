@@ -1,0 +1,221 @@
+<view class="container">
+
+  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+    <view class="title_div">氙气灯终结者，夜精灵超能解码王V12凭什么？！</view>
+    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">“V12还有没有货啊？”</view>
+    <view class="main_div">“V12和其他产品怎么搭配套餐？”</view>
+    <view class="main_div">“V12卖完了，什么时候给我补货啊？”</view>
+    <view class="main_div">...</view>
+    <view class="main_div">
+      近日，鼎易越级3.0战略会议落幕，<text style="color: red;">“鼎易在山东”终端地毯式席卷行动在山东省就势铺开</text>，随之而来的是门店和代理商各种“<text
+        style="font-weight: 800;">催货</text>”的声音。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_mindiv">
+      各位大佬别催了，工厂在加班加点生产了
+    </view>
+
+    <view class="main_div">
+      此次活动的火爆预料之中，活动未开始之前，鼎易针对市场现状，规划了渠道终端落地营销产品布局。
+    </view>
+
+    <view class="main_div">
+      <text style="color: red;">以具有绝对杀伤力的V12为核心，V11、D系、二炫等产品为辅助</text>，从高端产品到低端产品，构筑自己的产品壁垒，满足终端车主不同需求。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      作为此次鼎易终端营销产品的核心，鼎易夜精灵·超能解码王V12凭什么占据C位，成为终端追捧的对象？
+    </view>
+
+    <view class="main_div_img">
+      <view class="title">
+        <image mode="widthFix"
+        src='https://img14.360buyimg.com/ddimg/jfs/t1/120067/39/15864/6498/5f92b527E6637b44e/6647c6d7144d4421.png'>
+      </image>
+      </view>
+      
+    </view>
+
+    <view class="main_div">
+      在产品定位规划上，<text style="color: red;font-weight: 700;">鼎易夜精灵·超能解码王V12适用于对汽车改装解码有高要求的高端车型以及对汽车用灯体验有强需求的高端车主</text>
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      V12作为鼎易旗舰产品，产品核心竞争力毋庸置疑。具体产品性能怎么样，小编我给大家说道说道。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700; text-align: center;">
+      亮度比氙气灯高出30%
+    </view>
+
+    <view class="main_div">
+      夜间开车，对面车一束强光射来，而自己车上是又暗又昏黄的“蜡烛灯”，无形中尴尬又危险。
+    </view>
+
+    <view class="main_div">
+      改装不亮，不如不改。在市面上的大功率产品中，鼎易V12可以拍拍胸脯，<text style="color: red;font-weight: 700;"> 在同等价位产品中，没有对手！！！</text>
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      V12<text style="color: red;font-weight: 700;"> 配置65W高功率，亮度比氙气灯高出30%，</text>可以说从亮度、启动速度、寿命上把卤素灯氙气灯远远丢在身后。
+    </view>
+
+    <view class="main_div">
+      强大的产品性能能够实现<text style="color: red;font-weight: 700;">近光68米铺路无阴影，远光120射程看得见。</text>除此之外，360°全面发光，支持卡扣调节，完美贴合原车光型。
+    </view>
+
+    <view class="main_div">
+      让车主做这条街上<text style="font-weight: 700;">最亮</text>的靓仔，鼎易一直在努力!
+    </view>
+
+
+    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div" style="font-weight: 700; text-align: center;">
+      加装百变解码器，解码率高达95%
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      现在的车都配有电脑板，车的很多指令都是从电脑板发出的，车灯也一样。电脑板是通过对电路的电流和负载的功率来识别的，简单说，<text
+        style="color: red;font-weight: 700;">如果换上去的灯开灯后电脑板识别的电流和功率和出厂配置不一样那么汽车电脑板就会出现不适配问题。</text>
+    </view>
+
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      汽车车型多，解码问题层出不穷所以这也是我们终端门店改装人员一个头疼的问题。
+    </view>
+
+    <view class="main_div" style="margin-top: 60rpx;">
+      一款好的车灯不仅在亮度、光型、散热上要做到完美，在解码适配度上更是考验。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易夜精灵·超能解码王V12采用5G解码技术，叠加万能解码器，解码率可达95%。特别是<text
+        style="color: red;font-weight: 700;">自由光、大众、奔驰、宝马系列车型的车主有福了，</text>V12就是针对性解决这些主流车型的解码问题。
+    </view>
+
+    <view class="main_div">
+      车型适配表一打开，一系列车型都可以装！<text style="color: red;font-weight: 700;">百变-H7 、h11（H8、H9） 、9005（HB3、H10）、 9006(HB4)
+        、9012（H1R2）</text>...只有你想不到，没有V12装不了，真正做到不同车型，一招搞定。
+    </view>
+
+    <view class="main_div">
+      车型适配表一打开，一系列车型都可以装！<text style="color: red;font-weight: 700;">百变-H7 、h11（H8、H9） 、9005（HB3、H10）、 9006(HB4)
+        、9012（H1R2）</text>...只有你想不到，没有V12装不了，真正做到不同车型，一招搞定。
+    </view>
+
+    <view class="main_div" style="font-weight: 700; text-align: center;">
+      多项散热专利技术加持
+    </view>
+
+    <view class="main_div">
+      LED车灯研发时，总要在灯珠亮度和散热性能上取得平衡点。被动散热效果极差、热管导热又容易增加二次安全隐患，所以散热问题一直是车灯研发厂家的心头大患。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易夜精灵·超能解码王，真·车灯散热界扛把子！！
+    </view>
+    
+    <view class="main_div">
+      拥有<text style="color: red;font-weight: 700;">通体导热发明专利、防抱死发明专利，采用机翼4D立体消声散热技术，液压保油风扇</text>，从产品的外观设计到实际使用导热都没话说，散热强劲，寿命更长。
+    </view>
+
+    <view class="main_div">
+      除此之外，V12在选材上用的是<text style="color: red;font-weight: 700;">80um车规级大功率芯片单元、车规级阻燃线材。</text>在保证散热效果的同时杜绝了因散热或使用过度引发的产品自燃、爆炸等问题，实现主动安全、多重防护。
+    </view>
+
+
+    <view class="main_div" style="font-weight: 700; text-align: center;">
+      持久耐用，一步到位
+    </view>
+
+    <view class="main_div">车灯装上没几天就坏了；</view>
+    <view class="main_div">夏天太热，车灯莫名其妙炸了；</view>
+    <view class="main_div">车灯光型太差，光型散乱还出现光斑...</view>
+    <view class="main_div">一搜车灯，车灯问题全冒出来，市面上良莠不齐产品太多了，消费者选择无处下手，处处是坑。</view>
+
+    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      作为一个在车灯行业深耕22年的良心企业，鼎易的产品从研发到生产都严格遵循<text style="color: red;font-weight: 700;">机动车车辆安全标准和生产制作品质管理规范。</text>
+    </view>
+
+    <view class="main_div">
+      企业更是CCTV.央视展播品牌，在22年发展中<text style="color: red;font-weight: 700;">拥有 3项国际发明 、13项国内发明专利 、42项实用新型专利 、39项外观设计专利</text>以及中国人寿300万巨额全国联保保障。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div">
+      鼎易夜精灵·超能解码王V12在产品出厂之前，都会在<text style="color: red;font-weight: 700;">105℃环境下连续测试1000小时</text>，以检测产品性能，而在这么长时间的测试下，<text style="color: red;font-weight: 700;">光衰率仅为9.96%</text>，真正做到持久耐用寿命长。
+    </view>
+
+    <view class="main_div">
+      说了这么多，总结一句，从产品自身素质来说，V12高亮聚光、万能解码、散热效果好，称得上当下LED车灯大功率产品首选。
+    </view>
+
+    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
+      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    </view>
+   
+
+
+  </view>
+
+  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
+    <view class="yxzc_div">
+      <image mode="widthFix" style="width: 100%;height: 100%;"
+        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+      </image>
+    </view>
+  </view>
+
+</view>
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

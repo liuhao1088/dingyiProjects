@@ -123,7 +123,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
-          <view class="layout_date">9月20日</view>
+          <!-- <view class="layout_date">9月20日</view> -->
         </view>
 
       </view>
@@ -138,7 +138,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">致敬新时代，探索LED灯照明新未来</view>
-          <view class="layout_date">9月20日</view>
+          <!-- <view class="layout_date">9月20日</view> -->
         </view>
 
       </view>

@@ -2,6 +2,51 @@
   <view class="tag_maxdiv">
     <view class="layout">
 
+      <view class="layout_maxdiv" bindtap="wenzhangdjsix">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">开拓富饶沃土，征战华夏第一城，鼎易襄阳品牌财富峰会！</view>
+          <!-- <view class="layout_date">2020年9月23日</view> -->
+        </view>
+
+      </view>
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjseven">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">你还在担心换车灯过不了年审吗</view>
+          <!-- <view class="layout_date">2020年9月23日</view> -->
+        </view>
+
+      </view>
+
+      <view class="layout_maxdiv" bindtap="wenzhangdjeight">
+        <view class="layout_imgdiv">
+          <view class="layout_img">
+            <image  style="width: 100%;height: 100%;border-radius: 12rpx; "
+            src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
+          </image>
+          </view>
+        </view>
+        <view class="layout_zhongdiv">
+          <view class="layout_title">氙气灯终结者，夜精灵超能解码王V12凭什么？！</view>
+          <!-- <view class="layout_date">2020年9月23日</view> -->
+        </view>
+
+      </view>
+
       <view class="layout_maxdiv" bindtap="wenzhangdjfives">
         <view class="layout_imgdiv">
           <view class="layout_img">
@@ -12,7 +57,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">鼎易品牌财富峰会，谱写续章，辉煌安徽</view>
-          <view class="layout_date">2020年9月23日</view>
+          <!-- <view class="layout_date">2020年9月23日</view> -->
         </view>
 
       </view>
@@ -28,7 +73,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
-          <view class="layout_date">2020年9月20日</view>
+          <!-- <view class="layout_date">2020年9月20日</view> -->
         </view>
 
       </view>
@@ -43,7 +88,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">致敬新时代，探索LED灯照明新未来</view>
-          <view class="layout_date">2020年9月20日</view>
+          <!-- <view class="layout_date">2020年9月20日</view> -->
         </view>
 
       </view>
@@ -58,7 +103,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">勇攀高峰，登顶光明|鼎易再战安徽“珍珠城”</view>
-          <view class="layout_date">2020年9月18日</view>
+          <!-- <view class="layout_date">2020年9月18日</view> -->
         </view>
 
       </view>
@@ -74,7 +119,7 @@
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">霸者重返，光明降临|鼎易再战山东临沂！</view>
-          <view class="layout_date">2020年9月11日</view>
+          <!-- <view class="layout_date">2020年9月11日</view> -->
         </view>
 
       </view>
