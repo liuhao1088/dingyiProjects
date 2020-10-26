@@ -12,6 +12,7 @@ page {
   width: 100%;
   border: 0rpx solid red;
   float: left;
+  padding-bottom: 40rpx;
 }
 
 .layout_maxdiv {
