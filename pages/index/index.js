@@ -11,18 +11,34 @@ Page({
       'https://img10.360buyimg.com/ddimg/jfs/t1/115298/12/19148/1094071/5f6daab9Edd0f4f92/6d281f09dc0f699e.jpg',
       'https://s1.ax1x.com/2020/09/15/w6V09U.md.jpg'
     ],
-     active: 0,
-     indicatorDots: true,
-     autoplay: true,
-     interval: 3000,
-     duration: 1000
+    selectList:[
+      'https://img12.360buyimg.com/ddimg/jfs/t1/147855/20/8397/222352/5f6098afE744576c0/f33a2ffe2a346296.jpg',
+      'https://img13.360buyimg.com/ddimg/jfs/t1/140040/32/9057/122433/5f6d5ef8E52c0105c/5fd42ea6e737df6c.jpg',
+      'https://img13.360buyimg.com/ddimg/jfs/t1/149092/31/8423/238904/5f609907E15caf54e/14849a58988bac50.jpg'
+    ]
   },
-//   onChange(event) {
-//    wx.showToast({
-//      title: `切换到标签 ${event.detail.name}`,
-//      icon: 'none',
-//    });
-//  },
+
+  toDetails(e){
+    let id = e.currentTarget.id;
+    if(parseInt(id) === 0){
+      wx.navigateTo({
+        url: '../brandone/brandone',
+      })
+    }else if(parseInt(id) === 1){
+      wx.navigateTo({
+        url: '../brandtwo/brandtwo',
+      })
+    }else{
+      wx.navigateTo({
+        url: '../brandthree/brandthree',
+      })
+    }
+  },
+
+
+
+
+
    wenzhangdjone:function(){
       wx.navigateTo({
          url: "../wenzhangxiangxingone/wenzhangxiangxingone"
@@ -38,21 +54,8 @@ Page({
       url: "../fengniaoguoji/fengniaoguoji"
     })
   } ,
-  brandone: function (e) {
-    wx.navigateTo({
-      url: "../brandone/brandone"
-    })
-  } ,
-  brandtwo: function (e) {
-    wx.navigateTo({
-      url: "../brandtwo/brandtwo"
-    })
-  } ,
-  brandthree: function (e) {
-    wx.navigateTo({
-      url: "../brandthree/brandthree"
-    })
-  } ,
+
+  
   detailsdj: function (e) {
     wx.navigateTo({
       url: "../details/details"

@@ -1,9 +1,37 @@
-/**app.wxss**/
-.container {
+image {
   height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.column {
   display: flex;
   flex-direction: column;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
   align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-} 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer{
+  width: 100%;
+  background-color: black;
+}

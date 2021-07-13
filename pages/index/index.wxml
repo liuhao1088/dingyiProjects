@@ -1,8 +1,7 @@
 <view class="container">
   <view class="tag_maxdiv" style="width:100%;">
     <view class="lbt_div">
-      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
-        style="height:100%;">
+      <swiper indicator-dots autoplay style="height:100%;">
         <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
           <image mode="widthFix" src="{{item}}" class="slide-image" />
         </swiper-item>
@@ -11,103 +10,30 @@
     </view>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="img_div">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/142300/23/8454/182775/5f609830E994c9258/13552279327307ba.jpg">
-      </image>
-    </view>
+  <view class="tag_maxdiv" style="margin-top: 40rpx;">
+    <image mode="widthFix" style="border-radius: 12rpx; "
+      src="https://img11.360buyimg.com/ddimg/jfs/t1/142300/23/8454/182775/5f609830E994c9258/13552279327307ba.jpg">
+    </image>
   </view>
 
-  <view class="tag_maxdiv">
-    <view class="video_div">
-      <video style="width: 100%;height: 100%;" id="myVideo"
-        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E9%BC%8E%E6%98%93.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1600052178;1915412178&q-key-time=1600052178;1915412178&q-header-list=&q-url-param-list=&q-signature=837aeca2ec6f46ee2fcea19d0ee8bf5f07485faf"
-        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
-        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
-        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
-
-    </view>
-
+  <!-- 视频 -->
+  <view class="video_div">
+    <video class="video_nr"
+      src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E9%BC%8E%E6%98%93.mp4"
+      object-fit="cover" bindended="onEnded"></video>
   </view>
 
-
-
-
-  <!-- <view class="tag_maxdiv" style="width:100%;margin-top: 20rpx;">
-    <view class="header" style="height:1000rpx;">
-      <view class="but_div">
-        <view class="but_cpxq">产品详情</view>
-        <view class="but_cpxq" style="background-color: white;color: black;">产品视频</view>
-      </view>
-    </view>
-
-  </view> -->
-
-  <!-- <view class="tag_maxdiv">
-    <view class="tag">
-      <view class="gsjs_div">公司介绍</view>
-      <view class="ckgd_div">
-        <view class="ckgd_nrdiv">
-          <view class="ckgd_iocn">
-            <van-icon name="arrow" />
-          </view>
-          <view class="ckgd_nr">查看更多</view>
-        </view>
-      </view>
-    </view>
-    <view class="imgdiv">
-      <view class="img"></view>
-      <view class="imgdiv_nrdiv">佛山鼎易南铧科技有限公司</view>
-      <view class="imgdiv_title">佛山南海狮山罗村孝贤路2号长富创意产业园3栋4-5层</view>
-    </view>
-  </view> -->
-
-  <!-- <view class="tag_maxdiv" style="margin-top: 20rpx;">
-    <van-tabs swipeable="ture" animated="ture" active="{{ active }}" color="#E6F2FE" bind:change="onChange">
-      <van-tab title="产品图赏" title-style="font-weight: 600;font-size: 36rpx;">
-        <view class="tab_img"></view>
-      </van-tab>
-      <van-tab title="开箱图赏" title-style="font-weight: 600;font-size: 36rpx;">
-        <view class="tab_img"></view>
-      </van-tab>
-    </van-tabs>
-
-  </view> -->
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="brandone">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img12.360buyimg.com/ddimg/jfs/t1/147855/20/8397/222352/5f6098afE744576c0/f33a2ffe2a346296.jpg">
-      </image>
-    </view>
+  <!-- 列表 -->
+  <view class="tag_maxdiv" style="margin-bottom: 40rpx;" wx:for="{{selectList}}" id="{{index}}" bindtap="toDetails">
+    <image mode="widthFix" style="border-radius: 12rpx; " src="{{item}}">
+    </image>
   </view>
-
-  <view class="tag_maxdiv">
-    <view class="img_div" bindtap="brandtwo">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/140040/32/9057/122433/5f6d5ef8E52c0105c/5fd42ea6e737df6c.jpg">
-      </image>
-    </view>
-  </view>
-
-  <view class="tag_maxdiv">
-    <view mode="widthFix" class="img_div" bindtap="brandthree">
-      <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-        src="https://img13.360buyimg.com/ddimg/jfs/t1/149092/31/8423/238904/5f609907E15caf54e/14849a58988bac50.jpg">
-      </image>
-    </view>
-  </view>
-
 
   <view class="tag_maxdiv">
     <view class="tag">
       <view class="gsjs_div">进一步了解</view>
       <view class="ckgd_div" bindtap="detailsdj">
         <view class="ckgd_nrdiv">
-          <view class="ckgd_iocn">
-            <van-icon name="arrow" />
-          </view>
           <view class="ckgd_nr">查看更多</view>
         </view>
       </view>
@@ -119,13 +45,10 @@
           <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
             src="https://img14.360buyimg.com/ddimg/jfs/t1/134113/10/9950/101232/5f609a16Eaa25f1e6/aa22982c9ba93cdd.png">
           </image>
-          <!-- <view class="layout_wz">文章</view> -->
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">破除行业寒冰，引领创富之路丨鼎易乐平战役拉开江西首战</view>
-          <!-- <view class="layout_date">9月20日</view> -->
         </view>
-
       </view>
 
       <view class="layout_maxdiv" bindtap="wenzhangdjtwo">
@@ -134,33 +57,18 @@
             src="https://img10.360buyimg.com/ddimg/jfs/t1/147949/18/8430/89297/5f609b0bEda322c46/4d8ff55a3b485dec.png">
           </image>
 
-          <!-- <view class="layout_wz">文章</view> -->
         </view>
         <view class="layout_zhongdiv">
           <view class="layout_title">致敬新时代，探索LED灯照明新未来</view>
-          <!-- <view class="layout_date">9月20日</view> -->
         </view>
-
       </view>
-
-
-
-
-
-
-
-
     </view>
   </view>
 
-  <view class="tag_maxdiv" style="width: 100%;">
-    <view class="yxzc_div">
-      <image mode="widthFix" style="width: 100%;height: 100%;"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
-      </image>
-    </view>
+  <view class="footer">
+    <image mode="widthFix"
+      src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+    </image>
   </view>
-
-
 
 </view>
