@@ -1,9 +1,8 @@
 <view class="container">
-
-  <view class="tag_maxdiv" style="padding-bottom: 40rpx;margin-top: 20%;">
+  <view class="tag_maxdiv">
     <view class="title_div">氙气灯终结者，夜精灵超能解码王V12凭什么？！</view>
-    <view class="main_div_img" wx:for='{{imgArr}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[0]}}' data-index='{{0}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">“V12还有没有货啊？”</view>
@@ -15,8 +14,16 @@
         style="font-weight: 800;">催货</text>”的声音。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr2}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img" >
+      <image mode="widthFix" src='{{imgArr[1]}}' data-index='{{1}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div_img" >
+      <image mode="widthFix" src='{{imgArr[2]}}' data-index='{{2}}' bindtap='previewImg'></image>
+    </view>
+
+    <view class="main_div_img" >
+      <image mode="widthFix" src='{{imgArr[3]}}' data-index='{{3}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_mindiv">
@@ -31,8 +38,8 @@
       <text style="color: red;">以具有绝对杀伤力的V12为核心，V11、D系、二炫等产品为辅助</text>，从高端产品到低端产品，构筑自己的产品壁垒，满足终端车主不同需求。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr3}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[4]}}' data-index='{{4}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
@@ -42,10 +49,10 @@
     <view class="main_div_img">
       <view class="title">
         <image mode="widthFix"
-        src='https://img14.360buyimg.com/ddimg/jfs/t1/120067/39/15864/6498/5f92b527E6637b44e/6647c6d7144d4421.png'>
-      </image>
+          src='https://img14.360buyimg.com/ddimg/jfs/t1/120067/39/15864/6498/5f92b527E6637b44e/6647c6d7144d4421.png'>
+        </image>
       </view>
-      
+
     </view>
 
     <view class="main_div">
@@ -56,8 +63,8 @@
       V12作为鼎易旗舰产品，产品核心竞争力毋庸置疑。具体产品性能怎么样，小编我给大家说道说道。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr4}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[5]}}' data-index='{{5}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div" style="font-weight: 700; text-align: center;">
@@ -72,8 +79,8 @@
       改装不亮，不如不改。在市面上的大功率产品中，鼎易V12可以拍拍胸脯，<text style="color: red;font-weight: 700;"> 在同等价位产品中，没有对手！！！</text>
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr5}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[6]}}' data-index='{{6}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
@@ -89,8 +96,8 @@
     </view>
 
 
-    <view class="main_div_img" wx:for='{{imgArr6}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[7]}}' data-index='{{7}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div" style="font-weight: 700; text-align: center;">
@@ -111,8 +118,8 @@
       一款好的车灯不仅在亮度、光型、散热上要做到完美，在解码适配度上更是考验。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr7}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[8]}}' data-index='{{8}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
@@ -138,20 +145,22 @@
       LED车灯研发时，总要在灯珠亮度和散热性能上取得平衡点。被动散热效果极差、热管导热又容易增加二次安全隐患，所以散热问题一直是车灯研发厂家的心头大患。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr8}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[9]}}' data-index='{{9}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
       鼎易夜精灵·超能解码王，真·车灯散热界扛把子！！
     </view>
-    
+
     <view class="main_div">
-      拥有<text style="color: red;font-weight: 700;">通体导热发明专利、防抱死发明专利，采用机翼4D立体消声散热技术，液压保油风扇</text>，从产品的外观设计到实际使用导热都没话说，散热强劲，寿命更长。
+      拥有<text
+        style="color: red;font-weight: 700;">通体导热发明专利、防抱死发明专利，采用机翼4D立体消声散热技术，液压保油风扇</text>，从产品的外观设计到实际使用导热都没话说，散热强劲，寿命更长。
     </view>
 
     <view class="main_div">
-      除此之外，V12在选材上用的是<text style="color: red;font-weight: 700;">80um车规级大功率芯片单元、车规级阻燃线材。</text>在保证散热效果的同时杜绝了因散热或使用过度引发的产品自燃、爆炸等问题，实现主动安全、多重防护。
+      除此之外，V12在选材上用的是<text
+        style="color: red;font-weight: 700;">80um车规级大功率芯片单元、车规级阻燃线材。</text>在保证散热效果的同时杜绝了因散热或使用过度引发的产品自燃、爆炸等问题，实现主动安全、多重防护。
     </view>
 
 
@@ -164,8 +173,8 @@
     <view class="main_div">车灯光型太差，光型散乱还出现光斑...</view>
     <view class="main_div">一搜车灯，车灯问题全冒出来，市面上良莠不齐产品太多了，消费者选择无处下手，处处是坑。</view>
 
-    <view class="main_div_img" wx:for='{{imgArr9}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[10]}}' data-index='{{10}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
@@ -173,49 +182,35 @@
     </view>
 
     <view class="main_div">
-      企业更是CCTV.央视展播品牌，在22年发展中<text style="color: red;font-weight: 700;">拥有 3项国际发明 、13项国内发明专利 、42项实用新型专利 、39项外观设计专利</text>以及中国人寿300万巨额全国联保保障。
+      企业更是CCTV.央视展播品牌，在22年发展中<text style="color: red;font-weight: 700;">拥有 3项国际发明 、13项国内发明专利 、42项实用新型专利
+        、39项外观设计专利</text>以及中国人寿300万巨额全国联保保障。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr10}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[11]}}' data-index='{{11}}' bindtap='previewImg'></image>
     </view>
 
     <view class="main_div">
-      鼎易夜精灵·超能解码王V12在产品出厂之前，都会在<text style="color: red;font-weight: 700;">105℃环境下连续测试1000小时</text>，以检测产品性能，而在这么长时间的测试下，<text style="color: red;font-weight: 700;">光衰率仅为9.96%</text>，真正做到持久耐用寿命长。
+      鼎易夜精灵·超能解码王V12在产品出厂之前，都会在<text
+        style="color: red;font-weight: 700;">105℃环境下连续测试1000小时</text>，以检测产品性能，而在这么长时间的测试下，<text
+        style="color: red;font-weight: 700;">光衰率仅为9.96%</text>，真正做到持久耐用寿命长。
     </view>
 
     <view class="main_div">
       说了这么多，总结一句，从产品自身素质来说，V12高亮聚光、万能解码、散热效果好，称得上当下LED车灯大功率产品首选。
     </view>
 
-    <view class="main_div_img" wx:for='{{imgArr11}}' wx:key="id">
-      <image mode="widthFix" src='{{item}}' data-index='{{index}}' bindtap='previewImg'></image>
+    <view class="main_div_img">
+      <image mode="widthFix" src='{{imgArr[12]}}' data-index='{{12}}' bindtap='previewImg'></image>
     </view>
-   
+
 
 
   </view>
 
-  <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
-    <view class="yxzc_div">
-      <image mode="widthFix" style="width: 100%;height: 100%;"
-        src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
-      </image>
-    </view>
-  </view>
-
-</view>
-<view class="nav_div" style="top: {{top}};">
-  <view class="nav_maxdiv">
-    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
-      <view class="iocn">
-        <van-icon name="arrow-left" />
-      </view>
-      <view class="side"></view>
-
-    </view>
-    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
-      <van-icon name="wap-home-o" />
-    </view>
+  <view class="footer" style="margin-top: 30rpx;">
+    <image mode="widthFix"
+      src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+    </image>
   </view>
 </view>

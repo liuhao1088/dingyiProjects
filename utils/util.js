@@ -14,6 +14,15 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+function previewImage(index,imgArr) {
+  wx.previewImage({
+    current: imgArr[index], // 当前显示图片的http链接
+    urls: imgArr
+  })
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime,
+  previewImage
+
 }

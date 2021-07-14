@@ -46,7 +46,6 @@
           <view class="layout_title">{{item.title}}</view>
         </view>
       </view>
-
     </view>
   </view>
 
