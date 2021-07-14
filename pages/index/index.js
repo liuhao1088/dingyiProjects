@@ -22,27 +22,28 @@ Page({
     }, {
       img: 'https://img10.360buyimg.com/ddimg/jfs/t1/147949/18/8430/89297/5f609b0bEda322c46/4d8ff55a3b485dec.png',
       title: '致敬新时代，探索LED灯照明新未来'
-    }, ]
+    }, ],
+    productList: ''
   },
 
   toDetails(e) {
     let id = e.currentTarget.id;
     if (parseInt(id) === 0) {
       wx.navigateTo({
-        url: '../brandone/brandone',
+        url: '../productDetails/productDetails?details=' + JSON.stringify(this.data.productList[0]),
       })
     } else if (parseInt(id) === 1) {
       wx.navigateTo({
-        url: '../brandtwo/brandtwo',
+        url: '../productDetails/productDetails?details=' + JSON.stringify(this.data.productList[1]),
       })
     } else {
       wx.navigateTo({
-        url: '../brandthree/brandthree',
+        url: '../productDetails/productDetails?details=' + JSON.stringify(this.data.productList[2]),
       })
     }
   },
 
-  toArticle(e){
+  toArticle(e) {
     let id = e.currentTarget.id;
     if (parseInt(id) === 0) {
       wx.navigateTo({
@@ -58,10 +59,10 @@ Page({
 
 
   wenzhangdjone: function () {
-   
+
   },
   wenzhangdjtwo: function () {
-    
+
   },
   fnckdj: function (e) {
     wx.navigateTo({
@@ -80,7 +81,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let that = this;
+    wx.cloud.callFunction({
+      name: 'productList'
+    }).then(res => {
+      console.log(res.result)
+      let productList = res.result;
+      that.setData({
+        productList
+      })
+    })
   },
 
   /**

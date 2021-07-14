@@ -1,34 +1,22 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/productDetails/productDetails",
     "pages/wenzhangxiangxingeight/wenzhangxiangxingeight",
     "pages/details/details",
     "pages/wenzhangxiangxingseven/wenzhangxiangxingseven",
-    
     "pages/wenzhangxiangxingsix/wenzhangxiangxingsix",
-   
-    
     "pages/wenzhangxiangxingfives/wenzhangxiangxingfives",
-    
     "pages/wenzhangxiangxingfour/wenzhangxiangxingfour",
     "pages/wenzhangxiangxingthree/wenzhangxiangxingthree",
     "pages/fengniaoguoji/fengniaoguoji",
     "pages/wenzhangxiangxingtwo/wenzhangxiangxingtwo",
-    "pages/wenzhangxiangxingone/wenzhangxiangxingone",
-   
-    
-
-    
-    "pages/brandone/brandone",
-    "pages/brandtwo/brandtwo",
-    "pages/brandthree/brandthree"
-   
-    
+    "pages/wenzhangxiangxingone/wenzhangxiangxingone"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "鼎易",
     "navigationBarTextStyle":"black",
     "navigationStyle":"default"
 

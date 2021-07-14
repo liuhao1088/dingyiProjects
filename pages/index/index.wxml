@@ -1,5 +1,5 @@
 <view class="container">
-  <view class="tag_maxdiv" style="width:100%;height: 750rpx;">
+  <view class="tag_maxdiv" style="width:100%;height: 790rpx;">
     <swiper indicator-dots autoplay style="height:100%;">
       <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
         <image mode="widthFix" src="{{item}}" class="slide-image" />

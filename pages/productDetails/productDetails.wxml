@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width:100%;height: 790rpx;">
+    <swiper indicator-dots autoplay style="height:100%;">
+      <swiper-item wx:for="{{details.imgList}}" wx:key="id">
+        <image mode="widthFix" src="{{item}}" />
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 视频 -->
+  <view class="video_div">
+    <video class="video_nr" src="{{details.videoUrl}}" object-fit="cover" bindended="onEnded"></video>
+  </view>
+
+
+  <view class="tag_maxdiv" style="width:90%;margin-bottom: 40rpx;" wx:for="{{details.detailsList}}" wx:key="id">
+    <image mode="widthFix" style="border-radius: 12rpx; " src="{{item}}">
+    </image>
+  </view>
+
+  <view class="footer" style="width: 100%;">
+    <image mode="widthFix"
+      src="https://img14.360buyimg.com/ddimg/jfs/t1/149512/21/9259/535922/5f6d6057Ef86b23cc/c0923b8ae9276721.jpg">
+    </image>
+  </view>
+</view>
